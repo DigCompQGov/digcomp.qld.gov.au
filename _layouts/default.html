@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    {% if page.title %}
+      {{ page.title }} | {{ site.title }}
+    {% else %}
+      {{ site.title }}
+    {% endif %}
+  </title>
+
+  <meta
+    name="description"
+    content="{{ page.description | default: site.description }}"
+  >
+</head>
+
+<body>
+
+  #main-content
+    Skip to main content
+  </a>
+
+  <header>
+    <p>Queensland Government</p>
+    <p>{{ site.title }}</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    {{ '/' | relative_url }}
+      Home
+    </a>
+  </nav>
+
+  <main id="main-content">
+    {{ content }}
+  </main>
+
+  <footer>
+    <p>Queensland Government DigComp Hub proof of concept</p>
+
+    <p>
+      Contact:
+      digitalictcapability@chde.qld.gov.au
+        digitalictcapability@chde.qld.gov.au
+      </a>
+    </p>
+  </footer>
+
+</body>
+</html>
