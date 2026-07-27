@@ -581,3 +581,11 @@ button:focus-visible {
     gap: 0.85rem;
   }
 }
+/* Dark-blue numbering within framework competence lists */
+.framework-area-card li strong,
+.framework-area-card li b,
+.framework-area-card__competences strong,
+.framework-area-card__competences b {
+  color: #003e7e;
+  font-weight: 700;
+}
