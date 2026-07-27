@@ -666,3 +666,11 @@ button:focus-visible {
   height: 25%;
 }
 ``
+.back-link {
+  margin-top: 1.5rem;
+}
+
+.back-link a {
+  font-weight: 600;
+  text-decoration: none;
+}
