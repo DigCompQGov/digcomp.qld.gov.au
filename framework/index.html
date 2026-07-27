@@ -25,7 +25,7 @@ permalink: /framework/
     The framework contains five competence areas and 21 competences. Click on an area in the pentagon below to explore what it covers, how it relates to Queensland Government work and the practical capabilities employed.
   </p>
 
-  <div class="framework-pentagon-container">
+  <div class="framework-pentagon-container" id="top-pentagon">
     <img src="{{ '/assets/images/digcomp-pentagon.png' | relative_url }}"
          alt="DigComp 3.0 competence areas"
          class="framework-pentagon-image"
@@ -46,7 +46,7 @@ permalink: /framework/
         <span class="button-number">1</span>
         <span class="button-label">Information Search</span>
       </a>
-      <a href="#area2-button" class="pentagon-button area2-button" title="Communication and Collaboration">
+      <a href="#area2-details" class="pentagon-button area2-button" title="Communication and Collaboration">
         <span class="button-number">2</span>
         <span class="button-label">Communication</span>
       </a>
@@ -84,6 +84,8 @@ permalink: /framework/
         <p class="area-description">This competence area focuses on developing digital literacy skills to find, critically evaluate and organise information from digital sources. It's essential for Queensland Government employees who need to research, assess credibility and manage information in their daily work.</p>
         <a href="{{ '/framework/information-search/' | relative_url }}" class="button secondary">Explore Area 1 in Detail</a>
       </div>
+    <p class="back-link">
+  <a href="#top-pentagon">↑ Back to framework
     </article>
 
     <!-- Area 2: Communication and Collaboration -->
@@ -105,6 +107,8 @@ permalink: /framework/
         <p class="area-description">This competence area emphasises effective communication and collaboration in digital spaces, including appropriate digital conduct and identity management. Queensland Government employees need these skills to work effectively in modern, connected workplaces.</p>
         <a href="{{ '/framework/communication-collaboration/' | relative_url }}" class="button secondary">Explore Area 2 in Detail</a>
       </div>
+    <p class="back-link">
+  <a href="#top-pentagon">↑ Back to framework
     </article>
 
     <!-- Area 3: Content Creation -->
@@ -124,6 +128,8 @@ permalink: /framework/
         <p class="area-description">This competence area covers the creation and adaptation of digital content with attention to ethics, accessibility and intellectual property. Queensland Government employees need these skills to produce quality digital content and understand the legal and ethical implications.</p>
         <a href="{{ '/framework/content-creation/' | relative_url }}" class="button secondary">Explore Area 3 in Detail</a>
       </div>
+    <p class="back-link">
+  <a href="#top-pentagon">↑ Back to framework
     </article>
 
     <!-- Area 4: Safety, Wellbeing and Responsible Use -->
@@ -143,6 +149,8 @@ permalink: /framework/
         <p class="area-description">This competence area prioritises security, privacy, health and environmental responsibility when using digital technologies. Queensland Government employees must understand these competences to protect themselves, their organisation and the public they serve.</p>
         <a href="{{ '/framework/safety-wellbeing/' | relative_url }}" class="button secondary">Explore Area 4 in Detail</a>
       </div>
+    <p class="back-link">
+  <a href="#top-pentagon">↑ Back to framework
     </article>
 
     <!-- Area 5: Problem Identification and Solving -->
@@ -162,6 +170,8 @@ permalink: /framework/
         <p class="area-description">This competence area focuses on problem-solving and continuous learning with digital technologies. Queensland Government employees need these skills to troubleshoot issues, innovate solutions and stay current with digital developments.</p>
         <a href="{{ '/framework/problem-solving/' | relative_url }}" class="button secondary">Explore Area 5 in Detail</a>
       </div>
+    <p class="back-link">
+  <a href="#top-pentagon">↑ Back to framework
     </article>
 
   </section>
@@ -398,4 +408,29 @@ permalink: /framework/
       font-size: 1.1rem;
     }
   }
-</style>
+html {
+  scroll-behavior: smooth;
+}
+
+.competency-area-card {
+  transition: all 0.3s ease;
+}
+
+.competency-area-card:target {
+  background: #e8f4f8;
+  border-color: #0072bc;
+  box-shadow: 0 0 0 3px rgba(0,114,188,0.2);
+  animation: highlightCard 1s ease;
+}
+
+@keyframes highlightCard {
+  0% {
+    transform: scale(0.98);
+  }
+  50% {
+    transform: scale(1.01);
+  }
+  100% {
+    transform: scale(1);
+  }
+}</style>
