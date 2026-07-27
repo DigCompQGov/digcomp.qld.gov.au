@@ -231,60 +231,6 @@ button:focus-visible {
   border-radius: 0.35rem;
 }
 
-.proof-card {
-  background: #EFF4F9;
-  color: #131212;
-  border: 1px solid #C5D8EA;
-  border-left: 6px solid #005EB8;
-}
-
-.proof-card .eyebrow,
-.proof-card h2,
-.proof-card h3,
-.proof-card .disclosure-summary,
-.proof-card .disclosure-marker,
-.proof-card .participation-box h4 {
-  color: #003E7E;
-}
-
-.proof-card p,
-.proof-card .participation-box p {
-  color: #131212;
-}
-
-.proof-card .disclosure-content {
-  border-top: 1px solid #B8CCE0;
-}
-
-.proof-card .disclosure-summary:hover,
-.proof-card .disclosure-summary:focus-visible {
-  background: rgba(0, 94, 184, 0.08);
-  color: #003E7E;
-}
-
-.proof-card .participation-box {
-  background: #FFFFFF;
-  border: 1px solid #DDEAF7;
-  border-left: 4px solid #005EB8;
-}
-
-.proof-card .contact-button {
-  background: #005EB8;
-  color: #FFFFFF;
-  border: 2px solid #005EB8;
-}
-
-.proof-card .contact-button:hover,
-.proof-card .contact-button:focus-visible {
-  background: #003E7E;
-  color: #FFFFFF;
-  border-color: #003E7E;
-}
-
-.proof-card .contact-button:visited {
-  color: #FFFFFF;
-}
-
 .eyebrow {
   display: inline-block;
   margin: 0 0 0.5rem;
@@ -315,31 +261,24 @@ button:focus-visible {
 .digcomp-judgement {
   margin-block: 1.5rem;
   padding: 1.25rem 1.5rem;
-  background: #FFFFFF;
-  box-shadow: 0 1px 4px rgba(19, 18, 18, 0.08);
-  border: 0;
-  border-radius: 0.25rem;
+  border-left: 4px solid var(--qg-blue);
+  background: #EFF4F9;
 }
 
 .digcomp-judgement h3 {
   margin-top: 0;
-  margin-bottom: 0.75rem;
   color: var(--qg-dark-blue);
-  font-size: 1.1rem;
 }
 
 .digcomp-judgement .source-note {
   margin-bottom: 0;
-  font-size: 0.8rem;
-  font-style: italic;
-  line-height: 1.45;
+  font-size: 0.9rem;
   color: var(--qg-dark-grey);
 }
 
 .digcomp-judgement a,
 .digcomp-judgement a:visited {
   color: var(--qg-blue);
-  text-decoration: underline;
 }
 
 .digcomp-judgement a:hover,
@@ -447,124 +386,11 @@ button:focus-visible {
   margin-top: auto;
 }
 
-.framework-area-list {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 1.5rem;
-  width: 100%;
-  margin-top: 2rem;
-}
-
-.framework-area-card {
-  width: 100%;
-  padding: 1.5rem;
-  border: 1px solid #E0E0E0;
-  border-left: 6px solid #005EB8;
-  background: #FFFFFF;
-}
-
-.framework-area-card__header {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  gap: 1rem;
-  align-items: start;
-}
-
-.framework-area-card__number {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 2.75rem;
-  min-height: 2.75rem;
-  padding: 0.35rem;
-  background: #005EB8;
-  color: #FFFFFF;
-  font-size: 1.4rem;
-  font-weight: 700;
-}
-
-.framework-area-card h2 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  color: #003E7E;
-}
-
-.framework-area-card__count {
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
-  font-weight: 700;
-  color: #444444;
-}
-
-.framework-area-card__competences {
-  margin: 0 0 1.5rem;
-  padding-left: 1.5rem;
-}
-
-.framework-area-card__competences li {
-  margin-bottom: 0.5rem;
-  color: #131212;
-}
-
-.framework-area-card__competences strong {
-  color: #003E7E;
-}
-
-.framework-area-card__action {
-  display: inline-flex;
-  margin-top: auto;
-}
-
-.competence-detail-list {
-  display: grid;
-  gap: 1rem;
-  margin: 1.25rem 0 1.5rem;
-}
-
-.competence-detail {
-  width: 100%;
-  padding: 1rem 1.25rem;
-  background: #FFFFFF;
-  border: 1px solid #E0E0E0;
-  border-top: 4px solid var(--qg-blue);
-}
-
-.competence-detail h2 {
-  margin: 0 0 0.25rem;
-  font-size: 1.05rem;
-  color: #131212;
-}
-
-.competence-detail__number {
-  color: #003E7E;
-  font-weight: 700;
-  margin-right: 0.5rem;
-}
-
-.competence-detail__title {
-  font-weight: 700;
-}
-
 @media (max-width: 760px) {
   .intro-grid,
   .steps-grid,
   .task-grid {
     grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 600px) {
-  .framework-area-card__header {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  .framework-area-card__number {
-    width: fit-content;
-  }
-
-  .framework-area-card__action {
-    width: 100%;
-    justify-content: center;
   }
 }
 

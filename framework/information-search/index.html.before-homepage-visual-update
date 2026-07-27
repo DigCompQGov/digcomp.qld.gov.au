@@ -1,0 +1,37 @@
+---
+layout: default
+title: Area 1 - Information search, evaluation and management
+description: DigComp 3.0 area 1 focuses on finding, evaluating, organising and using digital information effectively and responsibly.
+permalink: /framework/information-search/
+---
+
+<section class="container">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <span class="separator" aria-hidden="true">/</span>
+    <a href="{{ '/framework/' | relative_url }}">Explore the Framework</a>
+    <span class="separator" aria-hidden="true">/</span>
+    <span>Area 1</span>
+  </nav>
+
+  <h1 class="page-heading">1. Information search, evaluation and management</h1>
+  <p class="page-intro">Find, evaluate, organise and use digital information effectively and responsibly.</p>
+
+  <h2>Competences</h2>
+  <ul class="framework-list">
+    <li>1.1 Browsing, searching and filtering information</li>
+    <li>1.2 Evaluating information</li>
+    <li>1.3 Managing information</li>
+  </ul>
+
+  <div class="status-notice">
+    <p><strong>Proof-of-concept status:</strong> Detailed Queensland Government workplace examples, learning pathways and supporting resources for this competence area are being developed as part of the proof of concept.</p>
+  </div>
+
+  <p><a class="button primary" href="{{ '/framework/' | relative_url }}">Back to Explore the Framework</a></p>
+
+  <div class="previous-next">
+    <span></span>
+    <a href="{{ '/framework/communication-collaboration/' | relative_url }}">Next area →</a>
+  </div>
+</section>

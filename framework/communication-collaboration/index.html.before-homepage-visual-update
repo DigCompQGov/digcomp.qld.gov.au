@@ -1,0 +1,40 @@
+---
+layout: default
+title: Area 2 - Communication and collaboration
+description: DigComp 3.0 area 2 focuses on communication, collaboration and participation in digital environments.
+permalink: /framework/communication-collaboration/
+---
+
+<section class="container">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <span class="separator" aria-hidden="true">/</span>
+    <a href="{{ '/framework/' | relative_url }}">Explore the Framework</a>
+    <span class="separator" aria-hidden="true">/</span>
+    <span>Area 2</span>
+  </nav>
+
+  <h1 class="page-heading">2. Communication and collaboration</h1>
+  <p class="page-intro">Communicate, share, collaborate and participate appropriately in digital environments.</p>
+
+  <h2>Competences</h2>
+  <ul class="framework-list">
+    <li>2.1 Interacting through and with digital technologies</li>
+    <li>2.2 Sharing through digital technologies</li>
+    <li>2.3 Engaging in citizenship through digital technologies</li>
+    <li>2.4 Collaborating through digital technologies</li>
+    <li>2.5 Digital conduct</li>
+    <li>2.6 Managing digital identity</li>
+  </ul>
+
+  <div class="status-notice">
+    <p><strong>Proof-of-concept status:</strong> Detailed Queensland Government workplace examples, learning pathways and supporting resources for this competence area are being developed as part of the proof of concept.</p>
+  </div>
+
+  <p><a class="button primary" href="{{ '/framework/' | relative_url }}">Back to Explore the Framework</a></p>
+
+  <div class="previous-next">
+    <a href="{{ '/framework/information-search/' | relative_url }}">← Previous area</a>
+    <a href="{{ '/framework/content-creation/' | relative_url }}">Next area →</a>
+  </div>
+</section>

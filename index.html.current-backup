@@ -1,0 +1,109 @@
+---
+layout: default
+title: Home
+description: Explore DigComp 3.0 and digital capability development for Queensland Government employees.
+---
+
+<section class="intro-section">
+  <div class="container intro-grid">
+    <article class="intro-card proof-card">
+      <p class="eyebrow">Queensland Government digital capability</p>
+      <h2>Proof of concept</h2>
+      <p>
+        The CDSB Digital Capability Team is testing an end-to-end approach to assess Queensland public sector digital capability and connect development needs with practical learning pathways.
+      </p>
+      <p>
+        A cross-agency cohort is expected to participate in late 2026. Findings may inform future decisions about a scalable digital capability solution. No future solution or investment has been determined.
+      </p>
+      <div class="hero-actions compact-actions">
+        <details class="disclosure">
+          <summary class="disclosure-summary">
+            <span class="disclosure-title">Find out more about the proof of concept</span>
+            <span class="disclosure-marker" aria-hidden="true">▸</span>
+          </summary>
+          <div class="disclosure-content">
+            <h3>About the proof of concept</h3>
+            <p>
+              The Department of Customer Services, Open Data and Small and Family Business is exploring how assessment, capability baselining and targeted learning pathways could support digital capability uplift across Queensland Government.
+            </p>
+            <p>
+              The proof of concept will test whether this approach can identify capability strengths and development needs, support applied learning and provide useful evidence for workforce planning.
+            </p>
+            <p>
+              Participation will be coordinated by the Digital Capability Team. The work is exploratory and does not commit Queensland Government to a future platform, service or investment.
+            </p>
+            <div class="participation-box">
+              <h4>Interested in getting involved?</h4>
+              <p>
+                Queensland Government employees and agencies interested in participating in the proof of concept, contributing feedback or learning more about the proposed approach can contact the Digital Capability Team.
+              </p>
+              <a class="button primary contact-button" href="mailto:digitalictcapability@chde.qld.gov.au?subject=Queensland%20DigComp%20proof%20of%20concept%20enquiry">Contact the Digital Capability Team</a>
+            </div>
+          </div>
+        </details>
+      </div>
+    </article>
+
+    <article class="intro-card digcomp-card">
+      <p class="eyebrow">The capability foundation</p>
+      <h2>What is DigComp 3.0?</h2>
+      <p>
+        DigComp 3.0 is the latest edition of the European Digital Competence Framework. Developed by the European Commission, it describes the knowledge, skills and attitudes people need to use digital technologies confidently, critically and responsibly at work, in learning and when participating in society.
+      </p>
+      <p>
+        DigComp provides a shared, technology-neutral way to:
+      </p>
+      <ul class="scannable-list compact-list">
+        <li>understand digital capability</li>
+        <li>assess strengths and development needs</li>
+        <li>design learning and development</li>
+        <li>support applied workplace learning</li>
+        <li>track capability uplift</li>
+      </ul>
+      <p>
+        It covers five competence areas and 21 competences. DigComp 3.0 also reflects developments in artificial intelligence, cybersecurity, digital rights, wellbeing, inclusion, sustainability, and misinformation and disinformation. AI capability is integrated across the framework.
+      </p>
+      <h3>How DigComp fits in Queensland and Australia</h3>
+      <p>
+        DigComp informs the Queensland public sector Digital Capability Framework, which supports individuals, leaders and organisations to build digital skills, adapt to changing technology and improve services. The Queensland framework also draws on SFIA and the Australian Public Service Data Capability Framework.
+      </p>
+      <p>
+        At the national level, the Australian Government recognises DigComp and SFIA as preferred guides for digital skills and training. DigComp can help employers, educators, learners and workers understand and develop digital capability across industries and occupations.
+      </p>
+      <h3>Resources</h3>
+      <ul class="resource-links">
+        <li><a href="https://www.forgov.qld.gov.au/recruitment-performance-and-career/career-development/develop-digital-and-ict-capabilities/digital-capability-framework">Queensland public sector Digital Capability Framework</a></li>
+        <li><a href="https://www.dewr.gov.au/skills-and-training/national-skills-strategies/digital-capability-frameworks-australian-workforce">Digital capability frameworks for the Australian workforce</a></li>
+        <li><a href="https://www.forgov.qld.gov.au/recruitment-performance-and-career/career-development/develop-digital-and-ict-capabilities/digital-competence-framework-for-citizens">Queensland Government DigComp guidance</a></li>
+        <li><a href="https://joint-research-centre.ec.europa.eu/projects-and-activities/education-and-training/digital-transformation-education/digital-competence-framework-digcomp/digcomp-30_en">European Commission DigComp 3.0</a></li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section class="steps-section container" id="framework">
+  <div class="start-section__inner">
+    <h1>Three ways to get started</h1>
+    <p class="steps-intro">
+      Explore the knowledge, skills and attitudes that help Queensland public servants work confidently, critically, safely and responsibly in a changing digital environment.
+    </p>
+    <div class="steps-grid">
+      <article class="step-card">
+        <h3>Understand DigComp</h3>
+        <p>Explore the five DigComp 3.0 competence areas and how they apply to Queensland Government work.</p>
+        <a class="button primary" href="{{ '/framework/' | relative_url }}">Explore the Framework</a>
+      </article>
+      <article class="step-card" id="assessment">
+        <h3>Assess your capability</h3>
+        <p>Learn about the assessment process and how to request participation in the proof of concept.</p>
+        <a class="button primary" href="{{ '/assessment/' | relative_url }}">Assess your capability</a>
+      </article>
+      <article class="step-card" id="learning">
+        <h3>Build your capability</h3>
+        <p>Find practical learning resources to strengthen your digital capability and address development needs.</p>
+        <a class="button primary" href="{{ '/resources/' | relative_url }}">Explore learning and resources</a>
+      </article>
+    </div>
+  </div>
+</section>
+

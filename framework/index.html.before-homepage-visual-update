@@ -1,0 +1,95 @@
+---
+layout: default
+title: Explore the Framework
+description: Explore the five DigComp 3.0 competence areas and their relevance to Queensland Government work.
+permalink: /framework/
+---
+
+<section class="container">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <span class="separator" aria-hidden="true">/</span>
+    <span>Explore the Framework</span>
+  </nav>
+
+  <h1 class="page-heading">Explore the DigComp 3.0 Framework</h1>
+  <p class="page-intro">
+    DigComp 3.0 describes the knowledge, skills and attitudes people need to use digital technologies confidently, critically and responsibly.
+  </p>
+  <p class="page-intro">
+    The framework contains five competence areas and 21 competences. Select an area to understand what it covers, how it relates to Queensland Government work and the practical capabilities employees can develop.
+  </p>
+
+  <div class="framework-grid">
+    <article class="framework-card">
+      <span class="framework-card-number">1</span>
+      <h3>Information search, evaluation and management</h3>
+      <p>Find, evaluate, organise and use digital information effectively and responsibly.</p>
+      <p><strong>Competences:</strong> 3</p>
+      <ul class="framework-list">
+        <li>1.1 Browsing, searching and filtering information</li>
+        <li>1.2 Evaluating information</li>
+        <li>1.3 Managing information</li>
+      </ul>
+      <a class="button primary" href="{{ '/framework/information-search/' | relative_url }}">Explore Area 1</a>
+    </article>
+
+    <article class="framework-card">
+      <span class="framework-card-number">2</span>
+      <h3>Communication and collaboration</h3>
+      <p>Communicate, share, collaborate and participate appropriately in digital environments.</p>
+      <p><strong>Competences:</strong> 6</p>
+      <ul class="framework-list">
+        <li>2.1 Interacting through and with digital technologies</li>
+        <li>2.2 Sharing through digital technologies</li>
+        <li>2.3 Engaging in citizenship through digital technologies</li>
+        <li>2.4 Collaborating through digital technologies</li>
+        <li>2.5 Digital conduct</li>
+        <li>2.6 Managing digital identity</li>
+      </ul>
+      <a class="button primary" href="{{ '/framework/communication-collaboration/' | relative_url }}">Explore Area 2</a>
+    </article>
+
+    <article class="framework-card">
+      <span class="framework-card-number">3</span>
+      <h3>Content creation</h3>
+      <p>Create, adapt and use digital content ethically, responsibly and accessibly.</p>
+      <p><strong>Competences:</strong> 4</p>
+      <ul class="framework-list">
+        <li>3.1 Developing digital content</li>
+        <li>3.2 Integrating and re-elaborating digital content</li>
+        <li>3.3 Copyright and licences</li>
+        <li>3.4 Programming</li>
+      </ul>
+      <a class="button primary" href="{{ '/framework/content-creation/' | relative_url }}">Explore Area 3</a>
+    </article>
+
+    <article class="framework-card">
+      <span class="framework-card-number">4</span>
+      <h3>Safety, wellbeing and responsible use</h3>
+      <p>Protect devices, personal information, health, wellbeing and the environment when using digital technologies.</p>
+      <p><strong>Competences:</strong> 4</p>
+      <ul class="framework-list">
+        <li>4.1 Protecting devices</li>
+        <li>4.2 Protecting personal data and privacy</li>
+        <li>4.3 Protecting health and wellbeing</li>
+        <li>4.4 Protecting the environment</li>
+      </ul>
+      <a class="button primary" href="{{ '/framework/safety-wellbeing/' | relative_url }}">Explore Area 4</a>
+    </article>
+
+    <article class="framework-card">
+      <span class="framework-card-number">5</span>
+      <h3>Problem identification and solving</h3>
+      <p>Identify needs and problems, select appropriate digital responses and continue developing digital competence.</p>
+      <p><strong>Competences:</strong> 4</p>
+      <ul class="framework-list">
+        <li>5.1 Solving technical problems</li>
+        <li>5.2 Identifying needs and technological responses</li>
+        <li>5.3 Creatively using digital technologies</li>
+        <li>5.4 Identifying and addressing digital competence gaps</li>
+      </ul>
+      <a class="button primary" href="{{ '/framework/problem-solving/' | relative_url }}">Explore Area 5</a>
+    </article>
+  </div>
+</section>

@@ -1,0 +1,38 @@
+---
+layout: default
+title: Area 4 - Safety, wellbeing and responsible use
+description: DigComp 3.0 area 4 focuses on protecting devices, data, health, wellbeing and the environment.
+permalink: /framework/safety-wellbeing/
+---
+
+<section class="container">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <span class="separator" aria-hidden="true">/</span>
+    <a href="{{ '/framework/' | relative_url }}">Explore the Framework</a>
+    <span class="separator" aria-hidden="true">/</span>
+    <span>Area 4</span>
+  </nav>
+
+  <h1 class="page-heading">4. Safety, wellbeing and responsible use</h1>
+  <p class="page-intro">Protect devices, personal information, health, wellbeing and the environment when using digital technologies.</p>
+
+  <h2>Competences</h2>
+  <ul class="framework-list">
+    <li>4.1 Protecting devices</li>
+    <li>4.2 Protecting personal data and privacy</li>
+    <li>4.3 Protecting health and wellbeing</li>
+    <li>4.4 Protecting the environment</li>
+  </ul>
+
+  <div class="status-notice">
+    <p><strong>Proof-of-concept status:</strong> Detailed Queensland Government workplace examples, learning pathways and supporting resources for this competence area are being developed as part of the proof of concept.</p>
+  </div>
+
+  <p><a class="button primary" href="{{ '/framework/' | relative_url }}">Back to Explore the Framework</a></p>
+
+  <div class="previous-next">
+    <a href="{{ '/framework/content-creation/' | relative_url }}">← Previous area</a>
+    <a href="{{ '/framework/problem-solving/' | relative_url }}">Next area →</a>
+  </div>
+</section>

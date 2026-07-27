@@ -1,0 +1,38 @@
+---
+layout: default
+title: Area 5 - Problem identification and solving
+description: DigComp 3.0 area 5 focuses on identifying needs, solving problems and developing digital competence.
+permalink: /framework/problem-solving/
+---
+
+<section class="container">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <span class="separator" aria-hidden="true">/</span>
+    <a href="{{ '/framework/' | relative_url }}">Explore the Framework</a>
+    <span class="separator" aria-hidden="true">/</span>
+    <span>Area 5</span>
+  </nav>
+
+  <h1 class="page-heading">5. Problem identification and solving</h1>
+  <p class="page-intro">Identify needs and problems, select appropriate digital responses and continue developing digital competence.</p>
+
+  <h2>Competences</h2>
+  <ul class="framework-list">
+    <li>5.1 Solving technical problems</li>
+    <li>5.2 Identifying needs and technological responses</li>
+    <li>5.3 Creatively using digital technologies</li>
+    <li>5.4 Identifying and addressing digital competence gaps</li>
+  </ul>
+
+  <div class="status-notice">
+    <p><strong>Proof-of-concept status:</strong> Detailed Queensland Government workplace examples, learning pathways and supporting resources for this competence area are being developed as part of the proof of concept.</p>
+  </div>
+
+  <p><a class="button primary" href="{{ '/framework/' | relative_url }}">Back to Explore the Framework</a></p>
+
+  <div class="previous-next">
+    <a href="{{ '/framework/safety-wellbeing/' | relative_url }}">← Previous area</a>
+    <span></span>
+  </div>
+</section>

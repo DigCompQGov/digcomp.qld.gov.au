@@ -1,0 +1,38 @@
+---
+layout: default
+title: Area 3 - Content creation
+description: DigComp 3.0 area 3 focuses on creating, adapting and using digital content ethically and responsibly.
+permalink: /framework/content-creation/
+---
+
+<section class="container">
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <span class="separator" aria-hidden="true">/</span>
+    <a href="{{ '/framework/' | relative_url }}">Explore the Framework</a>
+    <span class="separator" aria-hidden="true">/</span>
+    <span>Area 3</span>
+  </nav>
+
+  <h1 class="page-heading">3. Content creation</h1>
+  <p class="page-intro">Create, adapt and use digital content ethically, responsibly and accessibly.</p>
+
+  <h2>Competences</h2>
+  <ul class="framework-list">
+    <li>3.1 Developing digital content</li>
+    <li>3.2 Integrating and re-elaborating digital content</li>
+    <li>3.3 Copyright and licences</li>
+    <li>3.4 Programming</li>
+  </ul>
+
+  <div class="status-notice">
+    <p><strong>Proof-of-concept status:</strong> Detailed Queensland Government workplace examples, learning pathways and supporting resources for this competence area are being developed as part of the proof of concept.</p>
+  </div>
+
+  <p><a class="button primary" href="{{ '/framework/' | relative_url }}">Back to Explore the Framework</a></p>
+
+  <div class="previous-next">
+    <a href="{{ '/framework/communication-collaboration/' | relative_url }}">← Previous area</a>
+    <a href="{{ '/framework/safety-wellbeing/' | relative_url }}">Next area →</a>
+  </div>
+</section>

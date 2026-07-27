@@ -5,9 +5,8 @@ description: Explore DigComp 3.0 and digital capability development for Queensla
 ---
 
 <section class="intro-section">
-  <div class="container">
-    <div class="homepage-intro-stack">
-      <article class="intro-card proof-card">
+  <div class="container intro-grid">
+    <article class="intro-card proof-card">
       <p class="eyebrow">Queensland Government digital capability</p>
       <h2>Proof of concept</h2>
       <p>
@@ -48,53 +47,60 @@ description: Explore DigComp 3.0 and digital capability development for Queensla
       </div>
     </article>
 
-      <article class="intro-card digcomp-card">
-        <p class="eyebrow">The capability foundation</p>
-        <h2>What is DigComp 3.0?</h2>
+    <article class="intro-card digcomp-card">
+      <p class="eyebrow">The capability foundation</p>
+      <h2>What is DigComp 3.0?</h2>
+      <p>
+        DigComp 3.0 is the latest edition of the European Digital Competence Framework. Developed by the European Commission, it describes the knowledge, skills and attitudes people need to use digital technologies confidently, critically and responsibly at work, in learning and when participating in society.
+      </p>
+      <p>
+        DigComp provides a shared, technology-neutral way to:
+      </p>
+      <ul class="scannable-list compact-list">
+        <li>understand digital capability</li>
+        <li>assess strengths and development needs</li>
+        <li>design learning and development</li>
+        <li>support applied workplace learning</li>
+        <li>track capability uplift</li>
+      </ul>
+      <p>
+        It covers five competence areas and 21 competences. DigComp 3.0 also reflects developments in artificial intelligence, cybersecurity, digital rights, wellbeing, inclusion, sustainability, and misinformation and disinformation. AI capability is integrated across the framework.
+      </p>
+      <aside class="digcomp-judgement" aria-labelledby="judgement-heading">
+        <h3 id="judgement-heading">From using technology to exercising judgement</h3>
         <p>
-          DigComp 3.0 is the latest edition of the European Digital Competence Framework. Developed by the European Commission, it describes the knowledge, skills and attitudes people need to use digital technologies confidently, critically and responsibly at work, in learning and when participating in society.
+          DigComp 3.0 shifts the emphasis from simply completing digital tasks to exercising judgement in digital environments. It considers whether people can assess information, understand risks and make responsible decisions when using technologies such as AI.
         </p>
-        <p>
-          DigComp provides a shared, technology-neutral way to:
-        </p>
-        <ul class="scannable-list compact-list">
-          <li>understand digital capability</li>
-          <li>assess strengths and development needs</li>
-          <li>design learning and development</li>
-          <li>support applied workplace learning</li>
-          <li>track capability uplift</li>
-        </ul>
-        <p>
-          It covers five competence areas and 21 competences. DigComp 3.0 also reflects developments in artificial intelligence, cybersecurity, digital rights, wellbeing, inclusion, sustainability, and misinformation and disinformation. AI capability is integrated across the framework.
-        </p>
-        <aside class="digcomp-judgement" aria-labelledby="judgement-heading">
-          <h3 id="judgement-heading">Judgement in digital environments</h3>
+        <blockquote>
           <p>
-            DigComp 3.0 recognises that digital capability involves more than completing tasks or operating systems. People also need to evaluate information, understand risks and make responsible decisions when using digital technologies, including AI.
+            “Can this person make good decisions in a digital environment?”
           </p>
-          <p class="source-note">
-            <strong>Source:</strong>
-            Adapted from
-            <a href="https://tlrg.com.au/blogs/news/digcomp-3-0-a-better-description-of-reality">The Learning Resources Group’s interpretation of DigComp 3.0</a>.
-            This is an external interpretation, not an official European Commission definition.
-          </p>
-        </aside>
-        <h3>How DigComp fits in Queensland and Australia</h3>
-        <p>
-          DigComp informs the Queensland public sector Digital Capability Framework, which supports individuals, leaders and organisations to build digital skills, adapt to changing technology and improve services. The Queensland framework also draws on SFIA and the Australian Public Service Data Capability Framework.
+          <footer>
+            The Learning Resources Group,
+            <cite>
+              <a href="https://tlrg.com.au/blogs/news/digcomp-3-0-a-better-description-of-reality">DigComp 3.0 Isn’t Just an Update. It’s a Better Description of Reality</a>
+            </cite>
+          </footer>
+        </blockquote>
+        <p class="source-note">
+          This is an external interpretation of DigComp 3.0, not an official European Commission definition.
         </p>
-        <p>
-          At the national level, the Australian Government recognises DigComp and SFIA as preferred guides for digital skills and training. DigComp can help employers, educators, learners and workers understand and develop digital capability across industries and occupations.
-        </p>
-        <h3>Resources</h3>
-        <ul class="resource-links">
-          <li><a href="https://www.forgov.qld.gov.au/recruitment-performance-and-career/career-development/develop-digital-and-ict-capabilities/digital-capability-framework">Queensland public sector Digital Capability Framework</a></li>
-          <li><a href="https://www.dewr.gov.au/skills-and-training/national-skills-strategies/digital-capability-frameworks-australian-workforce">Digital capability frameworks for the Australian workforce</a></li>
-          <li><a href="https://www.forgov.qld.gov.au/recruitment-performance-and-career/career-development/develop-digital-and-ict-capabilities/digital-competence-framework-for-citizens">Queensland Government DigComp guidance</a></li>
-          <li><a href="https://joint-research-centre.ec.europa.eu/projects-and-activities/education-and-training/digital-transformation-education/digital-competence-framework-digcomp/digcomp-30_en">European Commission DigComp 3.0</a></li>
-        </ul>
-      </article>
-    </div>
+      </aside>
+      <h3>How DigComp fits in Queensland and Australia</h3>
+      <p>
+        DigComp informs the Queensland public sector Digital Capability Framework, which supports individuals, leaders and organisations to build digital skills, adapt to changing technology and improve services. The Queensland framework also draws on SFIA and the Australian Public Service Data Capability Framework.
+      </p>
+      <p>
+        At the national level, the Australian Government recognises DigComp and SFIA as preferred guides for digital skills and training. DigComp can help employers, educators, learners and workers understand and develop digital capability across industries and occupations.
+      </p>
+      <h3>Resources</h3>
+      <ul class="resource-links">
+        <li><a href="https://www.forgov.qld.gov.au/recruitment-performance-and-career/career-development/develop-digital-and-ict-capabilities/digital-capability-framework">Queensland public sector Digital Capability Framework</a></li>
+        <li><a href="https://www.dewr.gov.au/skills-and-training/national-skills-strategies/digital-capability-frameworks-australian-workforce">Digital capability frameworks for the Australian workforce</a></li>
+        <li><a href="https://www.forgov.qld.gov.au/recruitment-performance-and-career/career-development/develop-digital-and-ict-capabilities/digital-competence-framework-for-citizens">Queensland Government DigComp guidance</a></li>
+        <li><a href="https://joint-research-centre.ec.europa.eu/projects-and-activities/education-and-training/digital-transformation-education/digital-competence-framework-digcomp/digcomp-30_en">European Commission DigComp 3.0</a></li>
+      </ul>
+    </article>
   </div>
 </section>
 
