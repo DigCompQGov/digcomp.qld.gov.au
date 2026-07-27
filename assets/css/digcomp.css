@@ -581,3 +581,8 @@ button:focus-visible {
     gap: 0.85rem;
   }
 }
+/* DigComp competence numbering */
+.framework-area-card__competences strong {
+  color: #003e7e;
+  font-weight: 700;
+}
