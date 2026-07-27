@@ -596,4 +596,15 @@ button:focus-visible {
   width: 100%;
   height: auto;
 }
+.framework-pentagon-container {
+  text-align: center;
+  margin: 3rem auto;
+}
 
+.framework-pentagon-image {
+  display: block;
+  max-width: 900px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
