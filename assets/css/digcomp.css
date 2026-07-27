@@ -581,11 +581,96 @@ button:focus-visible {
     gap: 0.85rem;
   }
 }
-/* Dark-blue numbering within framework competence lists */
-.framework-area-card li strong,
-.framework-area-card li b,
-.framework-area-card__competences strong,
-.framework-area-card__competences b {
+/* DigComp competence numbering */
+.framework-area-card__competences strong {
   color: #003e7e;
   font-weight: 700;
+}
+.framework-pentagon-container {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.framework-pentagon-image {
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+}
+.framework-pentagon-container {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.framework-pentagon-image {
+  display: block;
+  max-width: 900px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.framework-pentagon-container {
+  position: relative;
+  max-width: 900px;
+  margin: 3rem auto;
+}
+
+.framework-pentagon-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pentagon-hotspot {
+  position: absolute;
+  display: block;
+  z-index: 10;
+}
+
+/* Yellow */
+.area1 {
+  top: 5%;
+  left: 50%;
+  width: 35%;
+  height: 25%;
+}
+
+/* Blue */
+.area2 {
+  top: 30%;
+  left: 72%;
+  width: 18%;
+  height: 45%;
+}
+
+/* Orange */
+.area3 {
+  bottom: 0%;
+  left: 25%;
+  width: 50%;
+  height: 15%;
+}
+
+/* Green */
+.area4 {
+  top: 30%;
+  left: 8%;
+  width: 20%;
+  height: 45%;
+}
+
+/* Red */
+.area5 {
+  top: 5%;
+  left: 10%;
+  width: 35%;
+  height: 25%;
+}
+``
+.back-link {
+  margin-top: 1.5rem;
+}
+
+.back-link a {
+  font-weight: 600;
+  text-decoration: none;
 }
