@@ -8,7 +8,7 @@ permalink: /framework/
 <section class="container">
 
   <nav class="breadcrumbs" aria-label="Breadcrumb">
-    {{ '/' | relative_url }}
+    <a href="{{ '/' | relative_url }}">Home</a>
     <span class="separator" aria-hidden="true">/</span>
     <span>Explore the Framework</span>
   </nav>
@@ -22,19 +22,380 @@ permalink: /framework/
   </p>
 
   <p class="page-intro">
-    The framework contains five competence areas and 21 competences. Select an area to understand what it covers, how it relates to Queensland Government work and the practical capabilities employees can develop.
+    The framework contains five competence areas and 21 competences. Click on an area in the pentagon below to explore what it covers, how it relates to Queensland Government work and the practical capabilities employed.
   </p>
 
   <div class="framework-pentagon-container">
+    <img src="{{ '/assets/images/digcomp-pentagon.png' | relative_url }}"
+         alt="DigComp 3.0 competence areas"
+         class="framework-pentagon-image"
+         usemap="#pentagon-map">
 
-  .gov.au/assets/css/digcomp-pentagon.png"
-       alt="DigComp 3.0 competence areas"
-       class="framework-pentagon-image">
+    <!-- Image map with clickable hotspots -->
+    <map name="pentagon-map">
+      <area shape="poly" coords="300,50,380,140,340,240,260,240,220,140" href="#area1-details" alt="Area 1: Information Search, Evaluation and Management">
+      <area shape="poly" coords="380,140,460,120,480,210,380,280,340,240" href="#area2-details" alt="Area 2: Communication and Collaboration">
+      <area shape="poly" coords="480,210,460,310,360,360,340,280,380,280" href="#area3-details" alt="Area 3: Content Creation">
+      <area shape="poly" coords="360,360,260,360,180,310,220,220,260,240" href="#area4-details" alt="Area 4: Safety, Wellbeing and Responsible Use">
+      <area shape="poly" coords="220,140,260,50,300,50,340,140,300,180" href="#area5-details" alt="Area 5: Problem Identification and Solving">
+    </map>
 
-  <a class="pentagon-hotspot area1"
-     href="{{ '/framework/information-search/' | relative_url }}"
-     aria-label="Information Search, Evaluation andrea3"
-     href="{{ '/framework/content-creation/' | relative_url }relative_url }}
+    <!-- Overlay buttons for each competency area -->
+    <div class="pentagon-buttons-overlay">
+      <a href="#area1-details" class="pentagon-button area1-button" title="Information Search, Evaluation and Management">
+        <span class="button-number">1</span>
+        <span class="button-label">Information Search</span>
+      </a>
+      <a href="#area2-button" class="pentagon-button area2-button" title="Communication and Collaboration">
+        <span class="button-number">2</span>
+        <span class="button-label">Communication</span>
+      </a>
+      <a href="#area3-details" class="pentagon-button area3-button" title="Content Creation">
+        <span class="button-number">3</span>
+        <span class="button-label">Content Creation</span>
+      </a>
+      <a href="#area4-details" class="pentagon-button area4-button" title="Safety, Wellbeing and Responsible Use">
+        <span class="button-number">4</span>
+        <span class="button-label">Safety</span>
+      </a>
+      <a href="#area5-details" class="pentagon-button area5-button" title="Problem Identification and Solving">
+        <span class="button-number">5</span>
+        <span class="button-label">Problem Solving</span>
+      </a>
+    </div>
+  </div>
 
-  <a class="pentagon-hotspot area5"
-     href="{{ '/framework/problem-
+  <!-- Competency Area Details Sections -->
+  <section class="competency-areas-container">
+    
+    <!-- Area 1: Information Search, Evaluation and Management -->
+    <article class="competency-area-card" id="area1-details">
+      <div class="competency-area-header">
+        <h2><span class="area-number">1</span> Information Search, Evaluation and Management</h2>
+        <p class="area-summary">Find, evaluate, organise and use digital information effectively and responsibly.</p>
+      </div>
+      <div class="competency-area-content">
+        <h3>Competences</h3>
+        <ul class="competences-list">
+          <li><strong>1.1</strong> Browsing, searching and filtering information</li>
+          <li><strong>1.2</strong> Evaluating information</li>
+          <li><strong>1.3</strong> Managing information</li>
+        </ul>
+        <p class="area-description">This competence area focuses on developing digital literacy skills to find, critically evaluate and organise information from digital sources. It's essential for Queensland Government employees who need to research, assess credibility and manage information in their daily work.</p>
+        <a href="{{ '/framework/information-search/' | relative_url }}" class="button secondary">Explore Area 1 in Detail</a>
+      </div>
+    </article>
+
+    <!-- Area 2: Communication and Collaboration -->
+    <article class="competency-area-card" id="area2-details">
+      <div class="competency-area-header">
+        <h2><span class="area-number">2</span> Communication and Collaboration</h2>
+        <p class="area-summary">Communicate, share, collaborate and participate appropriately in digital environments.</p>
+      </div>
+      <div class="competency-area-content">
+        <h3>Competences</h3>
+        <ul class="competences-list">
+          <li><strong>2.1</strong> Interacting through and with digital technologies</li>
+          <li><strong>2.2</strong> Sharing through digital technologies</li>
+          <li><strong>2.3</strong> Engaging in citizenship through digital technologies</li>
+          <li><strong>2.4</strong> Collaborating through digital technologies</li>
+          <li><strong>2.5</strong> Digital conduct</li>
+          <li><strong>2.6</strong> Managing digital identity</li>
+        </ul>
+        <p class="area-description">This competence area emphasises effective communication and collaboration in digital spaces, including appropriate digital conduct and identity management. Queensland Government employees need these skills to work effectively in modern, connected workplaces.</p>
+        <a href="{{ '/framework/communication-collaboration/' | relative_url }}" class="button secondary">Explore Area 2 in Detail</a>
+      </div>
+    </article>
+
+    <!-- Area 3: Content Creation -->
+    <article class="competency-area-card" id="area3-details">
+      <div class="competency-area-header">
+        <h2><span class="area-number">3</span> Content Creation</h2>
+        <p class="area-summary">Create, adapt and use digital content ethically, responsibly and accessibly.</p>
+      </div>
+      <div class="competency-area-content">
+        <h3>Competences</h3>
+        <ul class="competences-list">
+          <li><strong>3.1</strong> Developing digital content</li>
+          <li><strong>3.2</strong> Integrating and re-elaborating digital content</li>
+          <li><strong>3.3</strong> Copyright and licences</li>
+          <li><strong>3.4</strong> Programming</li>
+        </ul>
+        <p class="area-description">This competence area covers the creation and adaptation of digital content with attention to ethics, accessibility and intellectual property. Queensland Government employees need these skills to produce quality digital content and understand the legal and ethical implications.</p>
+        <a href="{{ '/framework/content-creation/' | relative_url }}" class="button secondary">Explore Area 3 in Detail</a>
+      </div>
+    </article>
+
+    <!-- Area 4: Safety, Wellbeing and Responsible Use -->
+    <article class="competency-area-card" id="area4-details">
+      <div class="competency-area-header">
+        <h2><span class="area-number">4</span> Safety, Wellbeing and Responsible Use</h2>
+        <p class="area-summary">Protect devices, personal information, health, wellbeing and the environment when using digital technologies.</p>
+      </div>
+      <div class="competency-area-content">
+        <h3>Competences</h3>
+        <ul class="competences-list">
+          <li><strong>4.1</strong> Protecting devices</li>
+          <li><strong>4.2</strong> Protecting personal data and privacy</li>
+          <li><strong>4.3</strong> Protecting health and wellbeing</li>
+          <li><strong>4.4</strong> Protecting the environment</li>
+        </ul>
+        <p class="area-description">This competence area prioritises security, privacy, health and environmental responsibility when using digital technologies. Queensland Government employees must understand these competences to protect themselves, their organisation and the public they serve.</p>
+        <a href="{{ '/framework/safety-wellbeing/' | relative_url }}" class="button secondary">Explore Area 4 in Detail</a>
+      </div>
+    </article>
+
+    <!-- Area 5: Problem Identification and Solving -->
+    <article class="competency-area-card" id="area5-details">
+      <div class="competency-area-header">
+        <h2><span class="area-number">5</span> Problem Identification and Solving</h2>
+        <p class="area-summary">Identify needs and problems, select appropriate digital responses and continue developing digital competence.</p>
+      </div>
+      <div class="competency-area-content">
+        <h3>Competences</h3>
+        <ul class="competences-list">
+          <li><strong>5.1</strong> Solving technical problems</li>
+          <li><strong>5.2</strong> Identifying needs and technological responses</li>
+          <li><strong>5.3</strong> Creatively using digital technologies</li>
+          <li><strong>5.4</strong> Identifying and addressing digital competence gaps</li>
+        </ul>
+        <p class="area-description">This competence area focuses on problem-solving and continuous learning with digital technologies. Queensland Government employees need these skills to troubleshoot issues, innovate solutions and stay current with digital developments.</p>
+        <a href="{{ '/framework/problem-solving/' | relative_url }}" class="button secondary">Explore Area 5 in Detail</a>
+      </div>
+    </article>
+
+  </section>
+
+  <div class="navigation-section">
+    <p><a class="button primary" href="{{ '/' | relative_url }}">Back to Home</a></p>
+  </div>
+
+</section>
+
+<style>
+  /* Pentagon container with responsive overlay */
+  .framework-pentagon-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: center;
+  }
+
+  .framework-pentagon-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+
+  /* Pentagon buttons overlay */
+  .pentagon-buttons-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+  }
+
+  .pentagon-button {
+    position: absolute;
+    pointer-events: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(0, 114, 188, 0.85);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid white;
+    cursor: pointer;
+  }
+
+  .pentagon-button:hover,
+  .pentagon-button:focus {
+    background: rgba(0, 114, 188, 1);
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    outline: none;
+  }
+
+  .button-number {
+    font-size: 1.8rem;
+    line-height: 1;
+  }
+
+  .button-label {
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 0.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  /* Position buttons at pentagon vertices */
+  .area1-button { top: 5%; left: 50%; transform: translateX(-50%); }
+  .area2-button { top: 30%; right: 8%; }
+  .area3-button { bottom: 15%; right: 12%; }
+  .area4-button { bottom: 15%; left: 12%; }
+  .area5-button { top: 30%; left: 8%; }
+
+  /* Competency areas container */
+  .competency-areas-container {
+    display: grid;
+    gap: 2rem;
+    margin-top: 4rem;
+  }
+
+  .competency-area-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 2rem;
+    background: #f9f9f9;
+    transition: box-shadow 0.3s ease;
+    scroll-margin-top: 100px;
+  }
+
+  .competency-area-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .competency-area-card:target {
+    background: #e8f4f8;
+    border-color: #0072bc;
+  }
+
+  .competency-area-header {
+    border-bottom: 3px solid #0072bc;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .competency-area-header h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+    color: #333;
+  }
+
+  .area-number {
+    background: #0072bc;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 0.75rem;
+    font-size: 1.2rem;
+  }
+
+  .area-summary {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #666;
+    font-weight: 500;
+  }
+
+  .competency-area-content h3 {
+    margin-top: 0;
+    color: #0072bc;
+    font-size: 1.2rem;
+  }
+
+  .competences-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+  }
+
+  .competences-list li {
+    padding: 0.5rem 0 0.5rem 2rem;
+    position: relative;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  .competences-list li:before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: #0072bc;
+    font-weight: bold;
+  }
+
+  .area-description {
+    color: #555;
+    line-height: 1.6;
+    margin: 1.5rem 0;
+  }
+
+  .navigation-section {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e0e0e0;
+  }
+
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .pentagon-button {
+      width: 70px;
+      height: 70px;
+      font-size: 0.9rem;
+    }
+
+    .button-number {
+      font-size: 1.4rem;
+    }
+
+    .button-label {
+      font-size: 0.6rem;
+    }
+
+    .competency-area-header h2 {
+      font-size: 1.3rem;
+    }
+
+    .competency-area-card {
+      padding: 1.5rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .pentagon-button {
+      width: 60px;
+      height: 60px;
+    }
+
+    .button-number {
+      font-size: 1.2rem;
+    }
+
+    .button-label {
+      display: none;
+    }
+
+    .area-number {
+      width: 35px;
+      height: 35px;
+      font-size: 1rem;
+    }
+
+    .competency-area-header h2 {
+      font-size: 1.1rem;
+    }
+  }
+</style>
