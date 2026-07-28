@@ -17,12 +17,14 @@
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <header class="qg-header">
-    <div class="container">
-      <p class="site-tag">Queensland Government</p>
-      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-    </div>
-  </header>
+<header class="site-header">
+  <img
+    src="{{ '/assets/qld-coat-of-arms.svg' | relative_url }}"
+    alt="Queensland Government Coat of Arms"
+    class="header-coat-of-arms">
+
+  <div class="header-text">
+    <h1>Queensland Government Digital 
 
   {% assign current_path = page.url | replace: 'index.html', '' %}
 
