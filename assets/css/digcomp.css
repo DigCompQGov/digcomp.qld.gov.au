@@ -187,7 +187,8 @@ main .container,
 .proof-card {
   background: linear-gradient(135deg, #f0f7ff 0%, var(--qg-white) 100%);
   border-left-color: var(--qg-blue);
-  padding: 1.15rem 1.3rem;
+  padding: 1.5rem 1.3rem;
+  border-radius: 0.35rem;
 }
 
 .eyebrow {
