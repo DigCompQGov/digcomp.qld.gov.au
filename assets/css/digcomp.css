@@ -373,9 +373,10 @@ details[open] .disclosure-marker {
 }
 
 .callout {
-  background: var(--qg-lightest-grey);
-  border-left: 5px solid var(--qg-blue);
-  padding: 1.25rem;
+  background: #ffffff;
+  border: 1px solid var(--qg-light-grey);
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
   border-radius: 0.35rem;
 }
 
