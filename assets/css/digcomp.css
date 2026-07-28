@@ -624,11 +624,6 @@ details[open] .disclosure-marker {
   padding: 1rem 0;
 }
 
-.header-content {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-}
 
 .header-coat-of-arms {
   width: 80px;
@@ -647,22 +642,4 @@ details[open] .disclosure-marker {
   gap: 1.5rem;
 }
 
-.header-coat-of-arms {
-  width: 90px;
-  height: auto;
-  flex-shrink: 0;
-}
-
-.header-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.header-text .site-tag {
-  margin: 0;
-}
-
-.header-text .site-title {
-  margin-top: 0.25rem;
-}
 ``
