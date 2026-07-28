@@ -188,7 +188,6 @@ main .container,
   background: linear-gradient(135deg, #f0f7ff 0%, var(--qg-white) 100%);
   border-left-color: var(--qg-blue);
   padding: 1.15rem 1.3rem;
-  max-width: 56rem;
 }
 
 .eyebrow {
