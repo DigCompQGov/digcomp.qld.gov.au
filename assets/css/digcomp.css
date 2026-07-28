@@ -674,3 +674,26 @@ button:focus-visible {
   font-weight: 600;
   text-decoration: none;
 }
+.site-header {
+  background: #003d7a;
+  color: white;
+  padding: 1rem 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header-coat-of-arms {
+  width: 80px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.header-text h1 {
+  margin: 0;
+  color: white;
+  font-size: 2rem;
+}
