@@ -641,3 +641,28 @@ details[open] .disclosure-marker {
   color: white;
   font-size: 2rem;
 }
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header-coat-of-arms {
+  width: 90px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-text .site-tag {
+  margin: 0;
+}
+
+.header-text .site-title {
+  margin-top: 0.25rem;
+}
+``
