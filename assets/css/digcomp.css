@@ -617,29 +617,15 @@ details[open] .disclosure-marker {
     width: 100%;
     padding: 0.8rem 0.5rem;
   }
-}
-.site-header {
-  background: #003d7a;
-  color: white;
-  padding: 1rem 0;
-}
-
-
-.header-coat-of-arms {
-  width: 80px;
-  height: auto;
-  flex-shrink: 0;
-}
-
-.header-text h1 {
-  margin: 0;
-  color: white;
-  font-size: 2rem;
-}
 .header-content {
   display: flex;
   align-items: center;
   gap: 1.5rem;
 }
 
-``
+  .header-coat-of-arms {
+  width: 150px;
+  height: auto;
+  flex-shrink: 0;
+}
+
