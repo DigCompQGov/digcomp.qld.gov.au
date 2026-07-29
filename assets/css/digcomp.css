@@ -624,8 +624,8 @@ details[open] .disclosure-marker {
 }
 
   .header-coat-of-arms {
-  width: 85px;
-  height: auto;
-  flex-shrink: 0;
+    width: 60px; !important;
+    max-width: 60px !important;
+    height: auto !important;
 }
 
