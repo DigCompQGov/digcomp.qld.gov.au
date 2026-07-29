@@ -623,9 +623,8 @@ details[open] .disclosure-marker {
   gap: 1.5rem;
 }
 
-  .header-coat-of-arms {
-    width: 60px; !important;
-    max-width: 60px !important;
-    height: auto !important;
+.header-coat-of-arms {
+  width: 20px !important;
+  height: auto !important;
 }
 
